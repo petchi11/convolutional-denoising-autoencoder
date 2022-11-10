@@ -8,7 +8,6 @@ To develop a convolutional autoencoder for image denoising application.
 
 ## Convolution Autoencoder Network Model
 
-Include the neural network model diagram.
 
 ## DESIGN STEPS
 
@@ -133,3 +132,4 @@ plt.show()
 
 
 ## RESULT
+Thus we have successfully developed a convolutional autoencoder for image denoising application.
