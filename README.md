@@ -13,10 +13,13 @@ Include the neural network model diagram.
 ## DESIGN STEPS
 
 ### STEP 1:
+Download and split the dataset into training and testing datasets
 
 ### STEP 2:
+Rescale the data as that the training is made easy
 
 ### STEP 3:
+create the model for the program , in this experiment we create to networks , one for encoding and one for decoding Write your own steps
 
 Write your own steps
 
