@@ -104,12 +104,14 @@ for i in range(1, n + 1):
     ax.get_xaxis().set_visible(False)
     ax.get_yaxis().set_visible(False)
 
+
     # Display noisy
     ax = plt.subplot(3, n, i+n)
     plt.imshow(x_test_noisy[i].reshape(28, 28))
     plt.gray()
     ax.get_xaxis().set_visible(False)
     ax.get_yaxis().set_visible(False)    
+
 
     # Display reconstruction
     ax = plt.subplot(3, n, i + 2*n)
@@ -119,6 +121,7 @@ for i in range(1, n + 1):
     ax.get_yaxis().set_visible(False)
 plt.show()
 ```
+
 ## OUTPUT
 
 ### Training Loss, Validation Loss Vs Iteration Plot
